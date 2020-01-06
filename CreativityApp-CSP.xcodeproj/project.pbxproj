@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A472D46D235E611C005E3FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472D46C235E611C005E3FEB /* AppDelegate.swift */; };
+		A472D46F235E611C005E3FEB /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472D46E235E611C005E3FEB /* CreativityViewController.swift */; };
+		A472D472235E611C005E3FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A472D470235E611C005E3FEB /* Main.storyboard */; };
+		A472D474235E611E005E3FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A472D473235E611E005E3FEB /* Assets.xcassets */; };
+		A472D482235E61A2005E3FEB /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A472D481235E61A2005E3FEB /* Launch.storyboard */; };
+		A472D484235E65B1005E3FEB /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472D483235E65B1005E3FEB /* DrawingView.swift */; };
+		A472D486235E6653005E3FEB /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472D485235E6653005E3FEB /* ArtCollectionViewController.swift */; };
+		A472D488235E67D8005E3FEB /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472D487235E67D8005E3FEB /* ArtCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A472D469235E611C005E3FEB /* CreativityApp-CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CreativityApp-CSP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A472D46C235E611C005E3FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A472D46E235E611C005E3FEB /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		A472D471235E611C005E3FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A472D473235E611E005E3FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A472D478235E611E005E3FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A472D481235E61A2005E3FEB /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		A472D483235E65B1005E3FEB /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		A472D485235E6653005E3FEB /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		A472D487235E67D8005E3FEB /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A472D466235E611C005E3FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A472D460235E611C005E3FEB = {
+			isa = PBXGroup;
+			children = (
+				A472D46B235E611C005E3FEB /* CreativityApp-CSP */,
+				A472D46A235E611C005E3FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A472D46A235E611C005E3FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A472D469235E611C005E3FEB /* CreativityApp-CSP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A472D46B235E611C005E3FEB /* CreativityApp-CSP */ = {
+			isa = PBXGroup;
+			children = (
+				A472D47E235E612C005E3FEB /* Resources */,
+				A472D47F235E6137005E3FEB /* Controller */,
+				A472D480235E614A005E3FEB /* View */,
+			);
+			path = "CreativityApp-CSP";
+			sourceTree = "<group>";
+		};
+		A472D47E235E612C005E3FEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A472D46C235E611C005E3FEB /* AppDelegate.swift */,
+				A472D473235E611E005E3FEB /* Assets.xcassets */,
+				A472D478235E611E005E3FEB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A472D47F235E6137005E3FEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A472D46E235E611C005E3FEB /* CreativityViewController.swift */,
+				A472D485235E6653005E3FEB /* ArtCollectionViewController.swift */,
+				A472D487235E67D8005E3FEB /* ArtCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A472D480235E614A005E3FEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A472D470235E611C005E3FEB /* Main.storyboard */,
+				A472D481235E61A2005E3FEB /* Launch.storyboard */,
+				A472D483235E65B1005E3FEB /* DrawingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A472D468235E611C005E3FEB /* CreativityApp-CSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A472D47B235E611E005E3FEB /* Build configuration list for PBXNativeTarget "CreativityApp-CSP" */;
+			buildPhases = (
+				A472D465235E611C005E3FEB /* Sources */,
+				A472D466235E611C005E3FEB /* Frameworks */,
+				A472D467235E611C005E3FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CreativityApp-CSP";
+			productName = "CreativityApp-CSP";
+			productReference = A472D469235E611C005E3FEB /* CreativityApp-CSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A472D461235E611C005E3FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = CTEC;
+				TargetAttributes = {
+					A472D468235E611C005E3FEB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A472D464235E611C005E3FEB /* Build configuration list for PBXProject "CreativityApp-CSP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A472D460235E611C005E3FEB;
+			productRefGroup = A472D46A235E611C005E3FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A472D468235E611C005E3FEB /* CreativityApp-CSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A472D467235E611C005E3FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A472D474235E611E005E3FEB /* Assets.xcassets in Resources */,
+				A472D472235E611C005E3FEB /* Main.storyboard in Resources */,
+				A472D482235E61A2005E3FEB /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A472D465235E611C005E3FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A472D484235E65B1005E3FEB /* DrawingView.swift in Sources */,
+				A472D46F235E611C005E3FEB /* CreativityViewController.swift in Sources */,
+				A472D488235E67D8005E3FEB /* ArtCell.swift in Sources */,
+				A472D486235E6653005E3FEB /* ArtCollectionViewController.swift in Sources */,
+				A472D46D235E611C005E3FEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A472D470235E611C005E3FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A472D471235E611C005E3FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A472D479235E611E005E3FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A472D47A235E611E005E3FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A472D47C235E611E005E3FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N86M84N7RR;
+				INFOPLIST_FILE = "$(SRCROOT)/CreativityApp-CSP/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.Creativity.Ben;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A472D47D235E611E005E3FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N86M84N7RR;
+				INFOPLIST_FILE = "$(SRCROOT)/CreativityApp-CSP/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.Creativity.Ben;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A472D464235E611C005E3FEB /* Build configuration list for PBXProject "CreativityApp-CSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A472D479235E611E005E3FEB /* Debug */,
+				A472D47A235E611E005E3FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A472D47B235E611E005E3FEB /* Build configuration list for PBXNativeTarget "CreativityApp-CSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A472D47C235E611E005E3FEB /* Debug */,
+				A472D47D235E611E005E3FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A472D461235E611C005E3FEB /* Project object */;
+}
